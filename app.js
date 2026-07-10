@@ -546,6 +546,28 @@ function init() {
                 bestSeason: 'Spring',
                 imageUrl: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600',
                 createdAt: new Date().toISOString()
+            },
+            {
+                id: generateId(),
+                name: 'Beijing',
+                location: 'Northern China',
+                category: 'Historical',
+                description: 'China\'s sprawling capital blends centuries of imperial history with modern energy. Explore the Forbidden City, walk the Great Wall at Mutianyu, wander through the hutongs, and savor authentic Peking duck in this captivating metropolis.',
+                rating: 4.7,
+                bestSeason: 'Autumn',
+                imageUrl: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=600',
+                createdAt: new Date().toISOString()
+            },
+            {
+                id: generateId(),
+                name: 'Shanghai',
+                location: 'Eastern China',
+                category: 'City',
+                description: 'A dazzling futuristic metropolis where Art Deco elegance meets soaring skyscrapers. Stroll the Bund, marvel at Pudong\'s skyline, lose yourself in the Yu Garden, and experience the vibrant nightlife of this global financial hub.',
+                rating: 4.5,
+                bestSeason: 'Spring',
+                imageUrl: 'https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?w=600',
+                createdAt: new Date().toISOString()
             }
         ];
         saveDestinations(destinations);
